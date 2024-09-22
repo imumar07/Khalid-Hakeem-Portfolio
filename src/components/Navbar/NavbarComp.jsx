@@ -1,80 +1,89 @@
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Offcanvas from 'react-bootstrap/Offcanvas';
+import React from "react";
+// import logo from "../../assets/Khalid Hakeem Logo.svg";
+import {
+  Navbar,
+  NavbarBrand,
+  NavbarContent,
+  NavbarItem,
+  NavbarMenuToggle,
+  NavbarMenu,
+  NavbarMenuItem,
+  Link,
+  Button,
+} from "@nextui-org/react";
+import "./index.css";
 
-import { useState, useEffect } from 'react';
+export default function NavbarComp() {
+  const [itemSelected , setItemSelected] = React.useState("Home");
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-function NavbarComp() {
-  const [expand, setExpand] = useState(false); // State to store the current expand value
-
-  useEffect(() => {
-    // Function to update the expand value based on screen width
-    const handleResize = () => {
-      const width = window.innerWidth;
-      if (width >= 1400) {
-        setExpand('xxl');
-      } else if (width >= 1200) {
-        setExpand('xl');
-      } else if (width >= 992) {
-        setExpand('lg');
-      } else if (width >= 768) {
-        setExpand('md');
-      } else if (width >= 576) {
-        setExpand('sm');
-      } else {
-        setExpand(false);
-      }
-    };
-
-    // Call the function initially to set the value on page load
-    handleResize();
-
-    // Add event listener for window resize
-    window.addEventListener('resize', handleResize);
-
-    // Cleanup the event listener on component unmount
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+  const menuItems = [
+    "Home",
+    "About Me",
+    "Research & Publications",
+    "Hazra Foundation",
+    "Blogs",
+    "Contact",
+    "Appointments",
+    
+  ];
+  const handleClick = (e) => {
+    setItemSelected(e.target.innerText);
+  }
 
   return (
-    <Navbar expand={expand} className="bg-body-tertiary" style={{ position: 'relative' }}>
-      <Container fluid>
-        <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
-        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
-        <Navbar.Offcanvas
-          id={`offcanvasNavbar-expand-${expand}`}
-          aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-          placement="end"
-        >
-          <Offcanvas.Header closeButton>
-            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-              Offcanvas
-            </Offcanvas.Title>
-          </Offcanvas.Header>
-          <Offcanvas.Body>
-            <Nav className="justify-content-end flex-grow-1 pe-3">
-              <Nav.Link href="#action1">Home</Nav.Link>
-              <Nav.Link href="#action2">Link</Nav.Link>
-              <NavDropdown title="Dropdown" id={`offcanvasNavbarDropdown-expand-${expand}`}>
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
-              </NavDropdown>
-            </Nav>
-          </Offcanvas.Body>
-        </Navbar.Offcanvas>
-      </Container>
+    <Navbar onMenuOpenChange={setIsMenuOpen} isBordered className=" fixed text-color" maxWidth="full">
+      {/* Logo content */}
+      <NavbarContent justify="start">
+      <NavbarBrand>
+          <p className="font-bold text-inherit">Dr. Khalid Hakeem Foundation</p>
+        </NavbarBrand>
+        <NavbarMenuToggle
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          className="lg:hidden"
+        />
+        
+      </NavbarContent>
+
+      {/* Main navigation links, centered */}
+      <NavbarContent className="hidden lg:flex gap-3" justify="center">
+        {menuItems.slice(0, 6).map((item, index) => (
+          <NavbarItem key={index} isActive={item === itemSelected}>
+            <Link href="#" className="text-black hover:text-gray-600" onClick={handleClick}>
+              {item}
+            </Link>
+          </NavbarItem>
+        ))}
+      </NavbarContent>
+
+      {/* Button content, aligned to the end */}
+      <NavbarContent justify="end" className="hidden lg:flex">
+        <NavbarItem>
+          <Button as={Link} href="#" color="default" variant="shadow" radius="small" className="bg-black text-white">
+            Appointment
+          </Button>
+        </NavbarItem>
+      </NavbarContent>
+
+      <NavbarMenu>
+        {menuItems.map((item, index) => (
+          (index===menuItems.length-1) ?
+            (<NavbarMenuItem key={index} isActive={item === itemSelected}>
+           <NavbarItem>
+          <Button as={Link} href="#" color="default" variant="shadow" radius="small" className="bg-black text-white">
+            Appointment
+          </Button>
+        </NavbarItem>
+          </NavbarMenuItem>
+          )
+          :(
+            <NavbarMenuItem key={index} isActive={item === itemSelected}>
+            <Link href="#" className="text-black hover:text-gray-600" onClick={handleClick}>
+              {item}
+            </Link>
+          </NavbarMenuItem>
+        )))}
+      </NavbarMenu>
     </Navbar>
   );
 }
-
-
-
-export default NavbarComp;
