@@ -21,7 +21,7 @@ export default function NavbarComp() {
     "Home",
     "About Me",
     "Research & Publications",
-    "Hazra Foundation",
+    "Mother Hajrah Foundation",
     "Blogs",
     "Contact",
     "Appointments",
@@ -36,7 +36,7 @@ export default function NavbarComp() {
       {/* Logo content */}
       <NavbarContent justify="start">
       <NavbarBrand>
-          <p className="font-bold text-inherit">Dr. Khalid Hakeem Foundation</p>
+          <p className="font-bold text-inherit">Dr. Khalid Hakeem</p>
         </NavbarBrand>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
