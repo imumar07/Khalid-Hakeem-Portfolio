@@ -20,7 +20,7 @@ export default function Research() {
                   </div>
                   <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                     <time className="sm:absolute left-5 translate-y-0.5 inline-flex  text-xs font-semibold uppercase w-5 h-10 mb-3 sm:mb-0 text-emerald-600">
-                      <div className="flex sm:flex-row sm:gap-5 lg:gap-0 lg:flex-col  justify-center items-center">
+                      <div className="flex sm:flex-row sm:gap-5 lg:gap-0 md:flex-col  justify-center items-center">
                         <p>08/10/2021</p> <p>-</p> <p>Present</p>
                       </div>
                     </time>
@@ -38,7 +38,7 @@ export default function Research() {
                   </div>
                   <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                     <time className="sm:absolute left-5 translate-y-0.5 inline-flex   text-xs font-semibold uppercase w-5 h-10 mb-3 sm:mb-0 text-emerald-600">
-                      <div className="flex sm:flex-row sm:gap-5 lg:gap-0 lg:flex-col  justify-center items-center">
+                      <div className="flex sm:flex-row sm:gap-5 lg:gap-0 md:flex-col  justify-center items-center">
                         <p>22/05/2019 </p> <p>-</p> <p>Present</p>
                       </div>
                     </time>
@@ -56,7 +56,7 @@ export default function Research() {
                   </div>
                   <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                     <time className="sm:absolute left-5 translate-y-0.5 inline-flex   text-xs font-semibold uppercase w-5 h-10 mb-3 sm:mb-0 text-emerald-600">
-                      <div className="flex sm:flex-row sm:gap-5 lg:gap-0 lg:flex-col  justify-center items-center">
+                      <div className="flex sm:flex-row sm:gap-5 lg:gap-0 md:flex-col  justify-center items-center">
                         <p>20/09/2016  </p> <p>-</p> <p>21/05/2019</p>
                       </div>
                     </time>
@@ -74,7 +74,7 @@ export default function Research() {
                   </div>
                   <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                     <time className="sm:absolute left-5 translate-y-0.5 inline-flex   text-xs font-semibold uppercase w-5 h-10 mb-3 sm:mb-0 text-emerald-600">
-                      <div className="flex sm:flex-row sm:gap-5 lg:gap-0 lg:flex-col  justify-center items-center">
+                      <div className="flex sm:flex-row sm:gap-5 lg:gap-0 md:flex-col  justify-center items-center">
                         <p>09/09/2013 </p> <p>-</p> <p>18/09/2016</p>
                       </div>
                     </time>
@@ -93,7 +93,7 @@ export default function Research() {
                   <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                     <time className="sm:absolute left-5 translate-y-0.5 inline-flex   text-xs font-semibold uppercase w-5 h-10 mb-3 sm:mb-0 text-emerald-600">
                       
-                      <div className="flex sm:flex-row sm:gap-5 lg:gap-0 lg:flex-col  justify-center items-center">
+                      <div className="flex sm:flex-row sm:gap-5 lg:gap-0 md:flex-col  justify-center items-center">
                         <p>09/07/2012 </p> <p>-</p> <p>08/07/2013</p>
                       </div>
                     </time>
@@ -112,7 +112,7 @@ export default function Research() {
                   <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                     <time className="sm:absolute left-5 translate-y-0.5 inline-flex  text-xs font-semibold uppercase w-5 h-10 mb-3 sm:mb-0 text-emerald-600">
                        
-                      <div className="flex sm:flex-row sm:gap-5 lg:gap-0 lg:flex-col  justify-center items-center">
+                      <div className="flex sm:flex-row sm:gap-5 lg:gap-0 md:flex-col  justify-center items-center">
                         <p>04/05/2011 </p> <p>-</p> <p>30/06/2012</p>
                       </div>
                     </time>

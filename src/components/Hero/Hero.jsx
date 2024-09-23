@@ -6,10 +6,9 @@ export default function Hero() {
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl lg:mt-20 mb-20">
         <div className="grid items-center grid-cols-1 md:grid-cols-2">
           {/* Image - Order first on small screens */}
-          {/* <GradualSpacing text="Assalamalikum" className="lg:hidden text-1xl font-bold leading-tight text-black dark:text-white sm:text-3xl lg:text-xl" /> */}
           <div className="relative flex justify-center mt-0 sm:mt-0 order-1 sm:order-2">
             <img
-              className="w-75 h-75 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-104 lg:h-104 object-cover rounded shadow-lg"
+              className="w-75 h-75 sm:w-80 sm:h-80 lg:w-104 lg:h-104 object-cover rounded shadow-lg"
               src={clientpicture}
               alt="Khalid ul Rehman Hakeem"
             />
