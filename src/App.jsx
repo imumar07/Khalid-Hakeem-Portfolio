@@ -2,6 +2,7 @@
 // import "./App.css"
 // import { Stats } from "fs";
 // import Blogs from "./components/Blogs";
+import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Appointment from "./components/Navbar/Appointment";
@@ -17,11 +18,10 @@ function App() {
   return (
     <>
     <div className="w-full">
-    <NavbarComp className=""/>
+    <NavbarComp/>
     <Hero/>
     <Research/>
     <Stat/>
-    {/* <Blogs/> */}
     <Appointment/>
     <Footer/>
     </div>

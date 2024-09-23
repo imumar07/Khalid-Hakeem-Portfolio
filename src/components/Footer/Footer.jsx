@@ -1,4 +1,4 @@
-import React from 'react';
+
 import FooterNav from './FooterNav';
 import FollowMe from './FollowMe';
 
