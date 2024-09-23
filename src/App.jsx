@@ -6,8 +6,8 @@ import Hero from "./components/Hero/Hero";
 import Appointment from "./components/Navbar/Appointment";
 
 import NavbarComp from "./components/Navbar/NavbarComp";
-import Research from "./components/Research";
-import Stat from "./components/Stat";
+import Research from "./components/Research/Research";
+import Stat from "./components/Stat/Stat";
 // import NavbarComp from './components/Navbar/NavbarComp';
 
 
