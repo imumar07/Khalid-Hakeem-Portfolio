@@ -1,5 +1,4 @@
 import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
-import chat from "../../assets/messages-square.svg";
 import counselling from "../../assets/counselling.svg";
 import { FaYoutube, FaFacebook, FaInstagram } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
