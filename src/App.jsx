@@ -2,6 +2,7 @@
 // import "./App.css"
 // import { Stats } from "fs";
 // import Blogs from "./components/Blogs";
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Appointment from "./components/Navbar/Appointment";
 
@@ -22,6 +23,7 @@ function App() {
     <Stat/>
     {/* <Blogs/> */}
     <Appointment/>
+    <Footer/>
     </div>
       
     </>
