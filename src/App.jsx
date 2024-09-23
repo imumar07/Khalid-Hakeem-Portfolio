@@ -2,12 +2,13 @@
 // import "./App.css"
 // import { Stats } from "fs";
 // import Blogs from "./components/Blogs";
-import Hero from "./components/Hero/Hero";
-import Appointment from "./components/Navbar/Appointment";
+// import Hero from "./components/Hero/Hero";
+// import Appointment from "./components/Navbar/Appointment";
 
+import About from "./components/About/About";
 import NavbarComp from "./components/Navbar/NavbarComp";
-import Research from "./components/Research/Research";
-import Stat from "./components/Stat/Stat";
+// import Research from "./components/Research/Research";
+// import Stat from "./components/Stat/Stat";
 // import NavbarComp from './components/Navbar/NavbarComp';
 
 
@@ -17,11 +18,12 @@ function App() {
     <>
     <div className="w-full">
     <NavbarComp className=""/>
-    <Hero/>
+    <About/>
+    {/* <Hero/>
     <Research/>
     <Stat/>
-    {/* <Blogs/> */}
-    <Appointment/>
+    
+    <Appointment/> */}
     </div>
       
     </>
