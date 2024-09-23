@@ -8,9 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavbarComp from "./components/Navbar/NavbarComp";
 import Research from "./components/Research/Research";
 import Stat from "./components/Stat/Stat";
-// import NavbarComp from './components/Navbar/NavbarComp';
 import Research from "./components/Research";
-import Stat from "./components/Stat";
 import Footer from "./components/Footer/Footer";
 
 
