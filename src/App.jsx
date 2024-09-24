@@ -22,9 +22,10 @@ function App() {
             <Route path='/' element={
               <div>
                 <Hero />
-                <Appointment />
-                <Stat />
                 <Research />
+                {/* <Blogs /> */}
+                <Stat />
+                <Appointment />
               </div>
             }
             />
