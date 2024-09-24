@@ -17,23 +17,25 @@ const FooterNav = () => {
     ];
 
     return (
-        <>
-            <div className='footer-nav'>
-                <h3>Quick Links</h3>
-                {menuItems.map((item, index) => (
-                    <Link key={index} to={item.path} style={{cursor:"pointer"}}>
-                        {item.name}
-                    </Link>
-                ))}
+        <div className='footer-nav-container'>
+            <h3>Quick Links</h3>
+            <div className='footer-links'>
+                <div className='footer-nav'>
+                    {menuItems.map((item, index) => (
+                        <Link key={index} to={item.path} style={{ cursor: "pointer" }}>
+                            {item.name}
+                        </Link>
+                    ))}
+                </div>
+                <div className='footer-nav'>
+                    {linkItems.map((item, index) => (
+                        <Link key={index} to={item.path} style={{ cursor: "pointer" }}>
+                            {item.name}
+                        </Link>
+                    ))}
+                </div>
             </div>
-            <div className='footer-nav'>
-                {linkItems.map((item, index) => (
-                    <Link key={index} to={item.path} style={{cursor:"pointer"}}>
-                        {item.name}
-                    </Link>
-                ))}
-            </div>
-        </>
+        </div>
     );
 };
 
