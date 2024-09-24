@@ -1,7 +1,9 @@
+
 const Appointment = () => {
     return (
       <section className="bg-[#F9FAFB] py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        
           <div className="bg-[#111827] rounded-xl shadow-lg p-8 lg:p-16">
             <h2 className="text-3xl font-extrabold text-white text-center sm:text-4xl lg:text-5xl mb-8">
               Book an Appointment
@@ -22,7 +24,9 @@ const Appointment = () => {
               </a>
             </div>
           </div>
+          
         </div>
+        
       </section>
     );
   };
