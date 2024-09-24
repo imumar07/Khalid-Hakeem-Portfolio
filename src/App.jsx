@@ -12,6 +12,7 @@ import Research from "./components/Research/Research";
 import Stat from "./components/Stat/Stat";
 import About from './components/About/About';
 import Blogs from './components/Blog/Blogs';
+import BooksList from './components/Books/BooksList';
 
 
 function App() {
@@ -31,11 +32,12 @@ function App() {
               </div>
             }
             />
-            <Route path='/contact' element={<Contact />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/blogs' element={<Blogs />} />
-            <Route path='/appointments' element={<Appointment />} />
-            <Route path='*' element={<div>Not Found Path</div>} />
+            <Route exact path='/contact' element={<Contact />} />
+            <Route exact path='/about' element={<About />} />
+            <Route exact path='/blogs' element={<Blogs />} />
+            <Route exact path='/appointments' element={<Appointment />} />
+            <Route exact path='/books' element={<BooksList />} />
+            <Route exact path='*' element={<div>Not Found Path</div>} />
           </Routes>
         </Router>
         <Footer />
