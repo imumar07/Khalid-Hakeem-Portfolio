@@ -108,7 +108,7 @@ export default function ResearchGrants() {
   const currentGrants = grants.slice(startIndex, endIndex);
 
   return (
-    <section className="bg-gray-50 dark:bg-gray-800 py-12">
+    <section className="bg-gray-100 dark:bg-gray-800 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold leading-tight text-black dark:text-white mb-6">
           Research Grants
@@ -128,7 +128,6 @@ export default function ResearchGrants() {
             showShadow
             color="warning"
             total={Math.ceil(grants.length / itemsPerPage)}
-            //  className="bg-[#111827] text-white shadow-md rounded-full"
             initialPage={1}
             page={currentPage}
             onChange={(page) => setCurrentPage(page)}
