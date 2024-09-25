@@ -24,11 +24,16 @@ export default function PublicationsChart() {
         <div className="space-y-4">
           {publicationsData.map((item, index) => (
             <div key={index} className="flex items-center">
-              <span className="w-1/4 text-gray-700 dark:text-gray-300">{item.category}</span>
-              <div className="relative w-3/4 bg-gray-200 dark:bg-gray-700 h-6 rounded-full">
+              <span className="w-1/2 xl:w-1/4 text-gray-700 dark:text-gray-300">{item.category}</span>
+
+              <div className="relative w-3/4 bg-gray-200 dark:bg-gray-700 h-6 rounded-full ">
                 <div
                   className="bg-[#111827] h-full rounded-full"
-                  style={{ width: `${(item.count / maxCount) * 100}%` }}
+                  // Add responsive styles for bar width on smaller screens
+                  style={{ 
+                    width: `${(item.count / maxCount) * 100}%`,
+                    maxWidth: '100%', // ensure bars do not exceed 100%
+                  }}
                 ></div>
               </div>
               <span className="ml-2 text-gray-700 dark:text-gray-300">{item.count}</span>
