@@ -13,6 +13,8 @@ import Stat from "./components/Stat/Stat";
 import About from './components/About/About';
 import Blogs from './components/Blog/Blogs';
 import BooksList from './components/Books/BooksList';
+import Hajrah from './components/Hajrah/Hajrah';
+import Foundation from './components/Foundation/Foundation';
 
 
 function App() {
@@ -28,6 +30,7 @@ function App() {
                 <Hero />
                 <Research />
                 <Stat />
+                <Foundation/>
                 <Appointment />
               </div>
             }
@@ -37,6 +40,7 @@ function App() {
             <Route exact path='/blogs' element={<Blogs />} />
             <Route exact path='/appointments' element={<Appointment />} />
             <Route exact path='/books' element={<BooksList />} />
+            <Route exact path='/hajrah' element={<Hajrah />} />
             <Route exact path='*' element={<div>Not Found Path</div>} />
           </Routes>
         </Router>

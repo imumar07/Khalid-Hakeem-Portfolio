@@ -20,7 +20,7 @@ export default function NavbarComp() {
     { name: "Home", route: "/" },
     { name: "About Me", route: "/about" },
     { name: "Research & Publications", route: "/research" },
-    { name: "Mother Hajrah Foundation", route: "/foundation" },
+    { name: "Mother Hajrah Foundation", route: "/hajrah" },
     { name: "Blogs", route: "/blogs" },
     { name: "Contact", route: "/contact" },
     { name: "Appointments", route: "/appointments" },
