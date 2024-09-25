@@ -5,9 +5,9 @@ const publicationsData = [
   { category: 'Patent (USA)', count: 1 },
   { category: 'Book Chapters', count: 82 },
   { category: 'Text and Edited Books', count: 101 },
-  { category: 'Conference Proceedings/Papers', count: 4 },
+  { category: 'Conference Papers', count: 4 },
   { category: 'Editorial', count: 1 },
-  { category: 'Others (Foreword about books)', count: 4 },
+  { category: 'Others (Foreword of books)', count: 4 },
 ];
 
 export default function PublicationsChart() {
