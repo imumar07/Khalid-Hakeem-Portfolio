@@ -52,7 +52,7 @@ const memberships = [
 
 export default function Memberships() {
   return (
-    <section className="bg-gray-50 dark:bg-gray-800 py-12">
+    <section className="bg-gray-100 dark:bg-gray-800 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold leading-tight text-black dark:text-white mb-6">
           Membership of Learned Societies
@@ -62,7 +62,7 @@ export default function Memberships() {
             <li key={index}>
               {item.society} {item.title && `(${item.title})`} 
               {item.link && (
-                <a href={item.link} className="text-blue-500 hover:underline">
+                <a href={item.link} className="text-[#111827] font-bold hover:underline">
                   {` `}(Link)
                 </a>
               )}

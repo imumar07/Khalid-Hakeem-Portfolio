@@ -16,7 +16,7 @@ export default function Fellowship() {
               Recipient of the 'Scientific and Technological Research Council of Turkey (TUBITAK)' Fellowship for Visiting Scientists (May-June 2014).
             </li>
             <li>
-              Plantae Fellow (American Society of Plant Biologists) 2016. <a href="http://blog.aspb.org/2016/11/22/welcome-to-our-plantae-fellows/" className="text-blue-500 hover:underline">Read more</a>.
+              Plantae Fellow (American Society of Plant Biologists) 2016. <a href="http://blog.aspb.org/2016/11/22/welcome-to-our-plantae-fellows/" className="text-[#111827] font-bold hover:underline">Read more</a>.
             </li>
             <li>
               Sentinels of Science Award (Agriculture and Biology Sciences Category) 2016 by Publons.
@@ -49,28 +49,28 @@ export default function Fellowship() {
               Outstanding Scientist Award 2021 by VDGOOD, India.
             </li>
             <li>
-              Fellow, International Society of Environmental Relationship And Sustainability (ISERS) Membership ID: M23110200. <a href="https://www.isers.net/committee-members.php" className="text-blue-500 hover:underline">Read more</a>.
+              Fellow, International Society of Environmental Relationship And Sustainability (ISERS) Membership ID: M23110200. <a href="https://www.isers.net/committee-members.php" className="text-[#111827] font-bold hover:underline">Read more</a>.
             </li>
             <li>
-              Fellow, International Engineering and Technology Institute (IETI) 2021, Hong Kong. <a href="http://www.ieti.net/news/detail.aspx?id=306" className="text-blue-500 hover:underline">Read more</a>.
+              Fellow, International Engineering and Technology Institute (IETI) 2021, Hong Kong. <a href="http://www.ieti.net/news/detail.aspx?id=306" className="text-[#111827] font-bold hover:underline">Read more</a>.
             </li>
             <li>
-              Ist Rank (Agriculture & Forestry / Plant Science) in King Abdulaziz University by AD Scientific Ranking, 2021. <a href="https://www.adscientificindex.com/scientist.php?id=553889" className="text-blue-500 hover:underline">Read more</a>.
+              Ist Rank (Agriculture & Forestry / Plant Science) in King Abdulaziz University by AD Scientific Ranking, 2021. <a href="https://www.adscientificindex.com/scientist.php?id=553889" className="text-[#111827] font-bold hover:underline">Read more</a>.
             </li>
             <li>
-              Council member, International Engineering and Technology Institute (IETI) 2022, Hong Kong. <a href="http://www.ieti.net/about/Founders.html" className="text-blue-500 hover:underline">Read more</a>.
+              Council member, International Engineering and Technology Institute (IETI) 2022, Hong Kong. <a href="http://www.ieti.net/about/Founders.html" className="text-[#111827] font-bold hover:underline">Read more</a>.
             </li>
             <li>
               Head (Plant Biotechnology Research Unit) at Princess Dr. Najlaa Bint Saud Al Saud Center for Distinguished Research in Biotech, King Abdulaziz University, Jeddah.
             </li>
             <li>
-              Included in the world's top 2% Scientists (Plant Science) by Stanford University and Elsevier BV, Netherlands. 2021. <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/3" className="text-blue-500 hover:underline">Read more</a>.
+              Included in the world's top 2% Scientists (Plant Science) by Stanford University and Elsevier BV, Netherlands. 2021. <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/3" className="text-[#111827] font-bold hover:underline">Read more</a>.
             </li>
             <li>
-              Included in the world's top 2% Scientists (Plant Science) by Stanford University and Elsevier BV, Netherlands. 2022. <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/3" className="text-blue-500 hover:underline">Read more</a>.
+              Included in the world's top 2% Scientists (Plant Science) by Stanford University and Elsevier BV, Netherlands. 2022. <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/3" className="text-[#111827] font-bold hover:underline">Read more</a>.
             </li>
             <li>
-              Included in the world's top 2% Scientists (Plant Science) by Stanford University and Elsevier BV, Netherlands. 2023. <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/3" className="text-blue-500 hover:underline">Read more</a>.
+              Included in the world's top 2% Scientists (Plant Science) by Stanford University and Elsevier BV, Netherlands. 2023. <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/3" className="text-[#111827] font-bold hover:underline">Read more</a>.
             </li>
             <li>
               Research Evaluator/Reviewer at Fund for Scientific Research-FNRS, Belgium.
