@@ -1,4 +1,6 @@
+
 import clientpicture from "../../../assets/client-picture.jpg";
+
 
 export default function BioData() {
   return (
@@ -10,6 +12,7 @@ export default function BioData() {
             <div className="relative flex justify-center mt-0 sm:mt-0 order-1 sm:order-2">
               <img
                 className="w-75 h-75 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-104 lg:h-104 object-cover rounded shadow-lg"
+
                 src={clientpicture}
                 alt="Khalid ul Rehman Hakeem"
               />
