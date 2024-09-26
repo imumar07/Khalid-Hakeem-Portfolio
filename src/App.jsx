@@ -13,6 +13,7 @@ import Stat from "./components/Stat/Stat";
 import About from './components/About/About';
 import Blogs from './components/Blog/Blogs';
 import BooksList from './components/ResearchAndArticles/Books/BooksList';
+import ResearchAndArticles from './components/ResearchAndArticles/ResearchAndArticles';
 import Hajrah from './components/Hajrah/Hajrah';
 import Foundation from './components/Foundation/Foundation';
 // import { Tweet } from 'react-tweet';
@@ -31,7 +32,7 @@ function App() {
                 <Hero />
                 <Research />
                 <Stat />
-                <Foundation/>
+                <Foundation />
                 {/* <Tweet/> */}
                 <Appointment />
               </div>
