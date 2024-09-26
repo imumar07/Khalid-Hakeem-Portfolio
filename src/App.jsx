@@ -15,6 +15,7 @@ import Blogs from './components/Blog/Blogs';
 import BooksList from './components/Books/BooksList';
 import Hajrah from './components/Hajrah/Hajrah';
 import Foundation from './components/Foundation/Foundation';
+import { Tweet } from 'react-tweet';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
                 <Research />
                 <Stat />
                 <Foundation/>
+                <Tweet/>
                 <Appointment />
               </div>
             }
