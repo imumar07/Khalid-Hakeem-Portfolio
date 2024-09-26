@@ -16,6 +16,7 @@ import BooksList from './components/ResearchAndArticles/Books/BooksList';
 import ResearchAndArticles from './components/ResearchAndArticles/ResearchAndArticles';
 import Hajrah from './components/Hajrah/Hajrah';
 import Foundation from './components/Foundation/Foundation';
+import Career from './components/Career/Career';
 // import { Tweet } from 'react-tweet';
 
 
@@ -44,7 +45,8 @@ function App() {
             <Route exact path='/appointments' element={<Appointment />} />
             <Route exact path='/books' element={<BooksList />} />
             <Route exact path='/research' element={<ResearchAndArticles />} />
-            <Route exact path='/hajrah' element={<Hajrah />} />
+            <Route exact path='/foundation' element={<Hajrah />} />
+            <Route exact path='/career' element={<Career />} />
             <Route exact path='*' element={<div>Not Found Path</div>} />
           </Routes>
         </Router>
