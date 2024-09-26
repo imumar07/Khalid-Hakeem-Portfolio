@@ -42,7 +42,7 @@ export default function AboutHajrah() {
                 focus on the poor, orphans, and underprivileged communities.
                 Understanding the plight faced by these individuals, the
                 foundation seeks to uplift them through various initiatives and
-                programs. One of the core areas of the foundation's work is
+                programs. One of the core areas of the foundation work is
                 education.
               </p>
             </div>
