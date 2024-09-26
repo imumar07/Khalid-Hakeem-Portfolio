@@ -15,7 +15,6 @@ import Blogs from './components/Blog/Blogs';
 import BooksList from './components/ResearchAndArticles/Books/BooksList';
 import Hajrah from './components/Hajrah/Hajrah';
 import Foundation from './components/Foundation/Foundation';
-import ResearchAndArticles from './components/ResearchAndArticles/ResearchAndArticles';
 
 
 function App() {
@@ -31,7 +30,7 @@ function App() {
                 <Hero />
                 <Research />
                 <Stat />
-                <Foundation />
+                <Foundation/>
                 <Appointment />
               </div>
             }

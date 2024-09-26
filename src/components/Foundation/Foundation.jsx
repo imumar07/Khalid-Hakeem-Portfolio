@@ -1,5 +1,5 @@
 // import React from 'react';
-import hajrah from '../../assets/hajrah1.png';
+import hajrah from '../../assets/haj.png';
 const Foundation = () => {
   return (
     <section className="bg-gray-50 py-16 px-8">
