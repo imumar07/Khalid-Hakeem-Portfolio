@@ -24,7 +24,7 @@ export default function Forms() {
               download
               className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors duration-300"
             >
-              Download Partnership Form
+              Start Filling Partnership Form
             </a>
           </div>
 
@@ -39,7 +39,7 @@ export default function Forms() {
               download
               className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors duration-300"
             >
-              Download Scholarship Form
+              Start Filling Scholarship Form
             </a>
           </div>
         </div>
