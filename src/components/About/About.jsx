@@ -12,20 +12,20 @@ import Visiting from "./Visiting/Visiting";
 
 
 
-export default function About(){
+export default function About() {
     return (
         <>
-        <BioData/>
-        <Education/>
-        <Teaching/>
-        <Fellowship/>
-        <Visiting/>
-        <ResearchGrants/>
-        <Supervision/>
-        <Contributions/>
-        <Memberships/>
-        <PublicationsChart/>
-        
+            <BioData />
+            <Education />
+            <Teaching />
+            <Fellowship />
+            <Visiting />
+            <ResearchGrants />
+            <Supervision />
+            <Contributions />
+            <Memberships />
+            <PublicationsChart />
+
         </>
     )
 }
