@@ -19,9 +19,10 @@ export default function NavbarComp() {
   const menuItems = [
     { name: "Home", route: "/" },
     { name: "About Me", route: "/about" },
-    { name: "Research & Publications", route: "/research" },
+    { name: "Research", route: "/research" },
     { name: "Mother Hajrah Foundation", route: "/hajrah" },
     { name: "Blogs", route: "/blogs" },
+    {name:"Career Guidance",route:"/career"},
     { name: "Contact", route: "/contact" },
     { name: "Appointments", route: "/appointments" },
   ];
@@ -54,7 +55,7 @@ export default function NavbarComp() {
 
       {/* Main navigation links, centered */}
       <NavbarContent className="hidden lg:flex gap-3" justify="center">
-        {menuItems.slice(0, 6).map((item, index) => (
+        {menuItems.slice(0, 7).map((item, index) => (
           <NavbarItem key={index} isActive={item.name === itemSelected}>
             <Link
               href={item.route}
