@@ -1,4 +1,4 @@
-import clientpicture from "../../../assets/Hajrah1.png";
+import clientpicture from "../../../assets/hajrah1.png";
 export default function AboutHajrah() {
   return (
     <>
